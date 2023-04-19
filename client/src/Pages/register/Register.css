@@ -1,0 +1,116 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+   background-image: url("image/mon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.registerTitle {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.registerForm > label {
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #ddd;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.registerInput {
+    width: 400px;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btnRegister {
+    background-color:teal;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Verala Round', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+.btnRegister:hover {
+    background-color: steelblue;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnLogin {
+    width: 110px;
+    position: absolute;
+    top: 60px;
+    right: 105px;
+    background-color:steelblue;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Verala Round', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+.btnLogin:hover {
+    background-color: teal;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnUpdateLogin {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.fetchError {
+    color: tomato;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Verala Round', sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}

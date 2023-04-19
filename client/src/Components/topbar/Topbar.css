@@ -1,0 +1,240 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding-left: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+/* .topLeft, .topRight {
+    flex: 3;
+   
+} */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.logo h2 {
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.logo span {
+    color: steelblue;
+}
+.blogIcon {
+    font-size: 28px;
+    color: steelblue;
+}
+/* .topCenter {
+    flex: 6;
+   
+} */
+.homeIcon, .blogCreateI {
+    display: flex;
+    gap: 7px;
+}
+
+
+.topNav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    
+
+}
+.topbarLinkHome, .topbarLinkAbout, .topbarLinkContact, .topbarLinkCreate {
+    color: #ddd;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topbarLinkHome:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+    color: steelblue;
+}
+.topbarLinkAbout:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+    color: steelblue;
+}
+.topbarLinkContact:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+    color: steelblue;
+}
+.topbarLinkCreate:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+    color: steelblue;
+}
+.topNav ul li {
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.topNav ul li:hover {
+    color: steelblue;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.topRight {
+    padding-right: 50px;
+}
+.topAvater {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.topAvater h3 {
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.topImg {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.userText {
+    color: #ddd;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    
+}
+.userText:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: steelblue;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.searchIcon {
+    color: #ddd;
+}
+.searchIcon:hover {
+    color: steelblue;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+/*topbar Updated*/
+.topbarLink {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.topbarButtons {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+.topbarLogin {
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Josefin Sans',sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: teal;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+.topbarLogin:hover {
+    background-color: steelblue;
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}
+.topbarRegister {
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Josefin Sans',sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: steelblue;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+.topbarRegister:hover {
+    background-color: teal;
+    
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+   
+}

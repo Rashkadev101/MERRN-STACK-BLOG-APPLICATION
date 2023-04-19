@@ -1,0 +1,120 @@
+.singlepost {
+    flex: 9;
+}
+.singlepostItem {
+    padding: 20px;
+    padding-right: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.singlepostImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.singleposttitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',sans-serif;
+    font-size: 24px;
+}
+.singleposttitleInput {
+    margin: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+.singleposttitleInput:focus {
+    outline: none;
+
+}
+.singlepostIcon {
+    float: right;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+}
+.singlepostedit {
+    color: teal;
+    border: 0;
+    cursor: pointer;
+}
+.singlepostdelete {
+    color: tomato;
+    border: 0;
+    cursor: pointer;
+}
+.singlepostinfo {
+   
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+   
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: steelblue;
+}
+.singlepostuser {
+    color: steelblue;
+    text-decoration: none;
+    padding-left: 5px;
+
+
+}
+.singlepostuser:hover {
+    cursor: pointer;
+    color: teal;
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.singlepostdesc {
+    color: #444;
+    font-size: 16px;
+    line-height: 24px;
+}
+.singlepostdesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.singlepostdescInput {
+    color: #444;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+.singlepostdescInput:focus {
+    outline: none;
+}
+.btnSinglePostUpdate {
+    background-color: steelblue;
+    color: #fff;
+    text-transform: capitalize;
+    height: 35px;
+    width: 100px;
+    align-self: flex-end;
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}

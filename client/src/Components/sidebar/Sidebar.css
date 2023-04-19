@@ -1,0 +1,91 @@
+.sidebar {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    top: 30px;
+}
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.sidebarItem h3, .sidebarCategories h3 {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    text-transform: capitalize;
+    font-family: 'Varela Round', sans-serif;
+  
+  
+}
+.sidebarItem p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5;
+    
+}
+.sidebarImg {
+    width: 220px;
+    margin-top: 15px;
+    object-fit: cover;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.sidebarList {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Varela Sans', sans-serif;
+}
+.sidebarSocial h4 {
+    border-bottom: 1px solid #a7a4a4;
+    border-top: 1px solid #a7a4a4;
+    width: 90%;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Varela Sans', sans-serif;
+}
+.socialMedia {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
